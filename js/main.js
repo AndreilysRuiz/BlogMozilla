@@ -1,4 +1,5 @@
 
+alert("Haz Clic en el botonn\n para cambiar el usuario en el encabezado")
 //cambio de imagen
 
 let myImage = document.querySelector("img");
