@@ -1,12 +1,10 @@
-
-
 //cambio de imagen
 
 let myImage = document.querySelector("img");
 
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
-  if(mySrc === "./img/LogoMozilla1.png") {
+  if (mySrc === "./img/LogoMozilla1.png") {
     myImage.setAttribute("src", "./img/LogoMozilla.png");
   } else {
     myImage.setAttribute("src", "./img/LogoMozilla1.png");
@@ -39,4 +37,8 @@ myButton.onclick = function () {
   setUserName();
 };
 
-alert("Haz Clic en el botonn para cambiar el usuario en el encabezado")
+function instrucion() {
+  alert("Haz Clic en el botonn para cambiar el usuario en el encabezado");
+}
+
+setTimeout(instrucion, 3000);
