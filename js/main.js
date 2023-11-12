@@ -17,7 +17,7 @@ let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
 function setUserName() {
-  let myName = prompt("Please enter your name");
+  let myName = prompt("Please enter your name to change the header of the Page");
   if (!myName) {
     setUserName();
   } else {
@@ -26,7 +26,7 @@ function setUserName() {
   }
 }
 
-setTimeout(instrucion, 5000);
+setTimeout(SetUserName, 4000);
 
 if (!localStorage.getItem("name")) {
   setUserName();
@@ -39,8 +39,4 @@ myButton.onclick = function () {
   setUserName();
 };
 
-function instrucion() {
-  alert("Haz Clic en el boton para cambiar el  encabezado");
-}
 
-setTimeout(instrucion, 3000);
