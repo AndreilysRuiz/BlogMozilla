@@ -26,7 +26,7 @@ function setUserName() {
   }
 }
 
-setTimeout(setUserName, 3000);
+setTimeout(setUserName, 5000);
 
 if (!localStorage.getItem("name")) {
   setUserName();
