@@ -38,7 +38,7 @@ myButton.onclick = function () {
 };
 
 function instrucion() {
-  alert("Haz Clic en el botonn para cambiar el usuario en el encabezado");
+  alert("Haz Clic en el boton para cambiar el  encabezado");
 }
 
 setTimeout(instrucion, 3000);
